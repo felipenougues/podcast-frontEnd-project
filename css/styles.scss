@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+/** Variables **/
+
+@import "_variables.scss";
+
+/** html y body **/
+
+html {
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5%=10px de 16px **/
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: $color;
+}
+
+
+/** Globales **/
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 2.3rem;
+}
+
+
+/** Prefijos **/
+
+@import "_prefijo.scss";
+
+/** Header **/
+
+@import "_header.scss";
+
+/** main **/
+
+@import "_main.scss";
+
+/** footer **/
+
+@import "_footer.scss";
+
+/** responsive **/
